@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-my-custom-rules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "custom eslint rules",
   "keywords": [
     "eslint",
