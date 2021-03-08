@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-my-custom-rules",
-  "version": "1.0.1",
-  "description": "custom eslint rules",
+  "name": "eslint-plugin-protractor-custom-rules",
+  "version": "1.0.0",
+  "description": "protractor custom rules",
   "keywords": [
     "eslint",
     "eslintplugin",
