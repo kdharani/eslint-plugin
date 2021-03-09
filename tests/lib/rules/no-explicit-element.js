@@ -29,7 +29,7 @@ ruleTester.run("no-explicit-element", rule, {
         {
             code: "it('Test description', async function () { await element.all(by.css('.table.table-striped tr td div')); })",
             errors: [{
-                message: "unexpected element() call in test",
+                message: "Don't use element() in test. Instead define the page elements in page class.",
                 type: "Identifier"
             }]
         }

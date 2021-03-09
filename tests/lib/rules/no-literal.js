@@ -29,7 +29,7 @@ ruleTester.run("no-literal", rule, {
         {
             code: "await ownersPage.selectOwner('John');",
             errors: [{
-                message: "unexpected literal found",
+                message: "Literal is not recommended. Use params instead.",
                 type: "Literal"
             }]
         }

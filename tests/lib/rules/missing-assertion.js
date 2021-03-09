@@ -29,7 +29,7 @@ ruleTester.run("missing-assertion", rule, {
         {
             code: "it('Test description', async function () { await browser.sleep(2000); })",
             errors: [{
-                message: "No assertion found in test. Test should have atleast one assertion",
+                message: "No assertion found in test. Test should have at least one assertion",
                 type: "CallExpression"
             }]
         }
